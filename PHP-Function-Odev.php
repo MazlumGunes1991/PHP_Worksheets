@@ -6,5 +6,23 @@
 	<title></title>
 </head>
 <body>
+	<?php 
+
+	function ucgen($satirSayisi) {
+		for ($i=0; $i <= $satirSayisi ; $i++) { 
+
+			$j = 0;
+
+			while ($j <= $i) {
+				echo $j * o;
+				$j++;
+			};
+
+			echo '<br>';
+		};
+	}
+
+	ucgen(15);
+	?>
 </body>
 </html>
